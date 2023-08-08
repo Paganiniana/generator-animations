@@ -1,0 +1,29 @@
+
+/* A little layout */
+
+body, html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+}
+
+#app h1 {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* The animation target */
+
+#ball {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(200, 25, 25);
+    border-radius: 100%;
+    position: fixed;
+}
