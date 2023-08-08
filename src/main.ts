@@ -16,7 +16,7 @@ function applyStyles() {
   let styles = isBouncing ? bouncer.next().value : follower.next().value;
   for (let key in styles) {
     // apply each style
-    ball.style[key] = styles[key];
+    ball.style[key as any] = styles[key];
   }
   requestAnimationFrame(applyStyles);
 }
